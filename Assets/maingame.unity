@@ -518,6 +518,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0da567dd1284864fb22ab094bb0c442, type: 3}
+  bulletPrefab: {fileID: 0}
+  firePointPrefab: {fileID: 0}
+  bulletForce: 20
 --- !u!1001 &4348413632832894811
 PrefabInstance:
   m_ObjectHideFlags: 0

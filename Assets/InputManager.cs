@@ -17,5 +17,9 @@ public class InputManager : MonoBehaviour
         {
             transform.position = new Vector2(transform.position.x + 1, transform.position.y);
         }
+        else if(Input.mousePosition.x < Screen.width / 2)
+        {
+            transform.position = new Vector2(transform.position.x + 1, transform.position.y);
+        }
     }
 }

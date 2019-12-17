@@ -5,6 +5,7 @@ using UnityEngine;
 public class shootScript : MonoBehaviour
 {
     public GameObject bulletPrefab;
+    [SerializeField]
     public GameObject firePointPrefab;
 
     public float bulletForce = 20f;
@@ -25,9 +26,9 @@ public class shootScript : MonoBehaviour
 
     void shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePointPrefab.position);
+        /*GameObject bullet = Instantiate(bulletPrefab, firePointPrefab.position);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(firePointPrefab.up * bulletForce, ForceMode2D.Impulse);
+        rb.AddForce(firePointPrefab.up * bulletForce, ForceMode2D.Impulse);*/
 
 
     }

@@ -12,15 +12,18 @@ public class enemyspawner : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        for (int i = 0; i < 3; i++)
+        StartCoroutine(wave());
+
+    }
+    IEnumerator wave()
+    {
+        for (int i = 0; i < 20; i++)
         {
-            for (int o = 0; i < 20; o++)
-            {
-                var randomNumberX = Random.Range(-8, 8);
-                Instantiate(prefab, transform.position + (transform.right * randomNumberX) + (transform.up * 3), transform.rotation);
-            }
+            var randomNumberX = Random.Range(-8, 8);
+            Instantiate(prefab, transform.position + (transform.right * randomNumberX) + (transform.up * 3), transform.rotation);
         }
-         
+        yield return new WaitForSeconds(3);
+        StartCoroutine(wave());
     }
     
 

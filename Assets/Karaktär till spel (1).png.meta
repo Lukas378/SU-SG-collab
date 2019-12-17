@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 8c25c2bddaadb384396a4300220bcdc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 51319802802820282
+    second: "Karakt\xE4r till spel (1)_0"
+  - first:
+      213: -8239975182401265115
+    second: "Karakt\xE4r till spel (1)_1"
+  - first:
+      213: 8264931491912622724
+    second: "Karakt\xE4r till spel (1)_2"
+  - first:
+      213: -715794006542891768
+    second: "Karakt\xE4r till spel (1)_3"
+  - first:
+      213: 3403976022712943497
+    second: "Karakt\xE4r till spel (1)_4"
+  - first:
+      213: 1412361439262103669
+    second: "Karakt\xE4r till spel (1)_5"
+  - first:
+      213: -1081591863103215970
+    second: "Karakt\xE4r till spel (1)_6"
+  - first:
+      213: -7308205589158847621
+    second: "Karakt\xE4r till spel (1)_7"
+  - first:
+      213: -8854576134946436079
+    second: "Karakt\xE4r till spel (1)_8"
+  - first:
+      213: 671360496602632628
+    second: "Karakt\xE4r till spel (1)_9"
+  - first:
+      213: -7396103821095233950
+    second: "Karakt\xE4r till spel (1)_10"
+  - first:
+      213: 5820915313634387534
+    second: "Karakt\xE4r till spel (1)_11"
+  - first:
+      213: -980001545912487886
+    second: "Karakt\xE4r till spel (1)_12"
+  - first:
+      213: 1347662283036759159
+    second: "Karakt\xE4r till spel (1)_13"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_0"
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 4036
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b8d7c6e9891b5438f187f6e98519e5
+      internalID: 51319802802820282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 4036
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ab638e7f6d24649bd21dfaffcf8a67
+      internalID: -8239975182401265115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 4036
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0cfe63d7000e04c8deba33e3a0b8c0
+      internalID: 8264931491912622724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_3"
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 4036
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d36c1a4a8f82534d992fe5e262924f4
+      internalID: -715794006542891768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_4"
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2756
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd4f5d65de7de44787d7d6dad4d51da
+      internalID: 3403976022712943497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_5"
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 2756
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe422d08b5c3e443a15cc3b684793c6
+      internalID: 1412361439262103669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_6"
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 2756
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9da8bd15185df4ab7b891ab65ae3b0
+      internalID: -1081591863103215970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_7"
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 2756
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbc77feef08a4943b4eaa73055583f5
+      internalID: -7308205589158847621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_8"
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 2566
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feebd254d974a5b4eb76626f262a1fb0
+      internalID: -8854576134946436079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_9"
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1476
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa59a17c4b2811459661fbf249e6a51
+      internalID: 671360496602632628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_10"
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1476
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f7ad60b62155641a109793dcdb5815
+      internalID: -7396103821095233950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_11"
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 1476
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2966a024cc8b26f4c82215960b21be6c
+      internalID: 5820915313634387534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_12"
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 1476
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c240f61428c7040abc662c765ed440
+      internalID: -980001545912487886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Karakt\xE4r till spel (1)_13"
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 196
+        width: 828
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d404bf2aae3555343ba4881e3686382e
+      internalID: 1347662283036759159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 957214b7e4a557a45a3730133e8b508e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class enemyspawner : MonoBehaviour
 {
-    GameObject enemyPrefab;
+    [SerializeField]
+    public Transform prefab;
     Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -15,9 +16,10 @@ public class enemyspawner : MonoBehaviour
     }
     IEnumerator Wave1()
     {
+        yield return new WaitForSeconds(1);
         for (int i = 0; i < 10; i++)
         {
-            Instantiate(enemyPrefab, transform)
+            Instantiate(prefab, transform.position.x * new Vector3(i * 2.0f, 5.0f, 0f), transform.rotation);
         }
     }
 

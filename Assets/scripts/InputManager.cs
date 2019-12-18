@@ -16,25 +16,30 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.mousePosition.x > Screen.width / 2)
+        if(Input.mousePosition.x < Screen.width / 2 - 75)
         {
             transform.position = new Vector2(transform.position.x - deltaX, transform.position.y);
         }
-        else if(Input.mousePosition.x < Screen.width / 2)
+        else if(Input.mousePosition.x > Screen.width / 2 + 75)
         {
             transform.position = new Vector2(transform.position.x + deltaX, transform.position.y);
         }
-        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -100, 100), transform.position.y);
-        if (hp > 50 || Input.GetKeyDown(KeyCode.Alpha4))
+        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -8.5f, 8.5f), transform.position.y);
+        if (hp < 0 || Input.GetKeyDown(KeyCode.Alpha6)) Death();
+        else if (hp < 50 || Input.GetKeyDown(KeyCode.Alpha4))
         {
             anim.SetTrigger("HalfHealth");
-        }
-        if (hp < 0 || Input.GetKeyDown(KeyCode.Alpha6)) Death();
+        } 
+        else anim.SetTrigger("FullHealth");
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Enemy") Death();
+        if (collision.gameObject.tag == "Enemy")
+        {
+            hp -= 10;
+            Debug.Log(gameObject.name + " took " + 10 + " points of damage and is now at " + hp + " hp");
+        }
     }
     public void Death()
     {
@@ -44,5 +49,7 @@ public class InputManager : MonoBehaviour
         {
             Destroy(gO);
         }
+        foreach (GameObject gO in GameObject.FindGameObjectsWithTag("Bullet")) Destroy(gO);
+        hp = 100;
     }
 }

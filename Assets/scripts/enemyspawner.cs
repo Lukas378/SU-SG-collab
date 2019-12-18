@@ -17,10 +17,12 @@ public class enemyspawner : MonoBehaviour
     }
     IEnumerator wave()
     {
+        //Debug.Log("Newwave");
         for (int i = 0; i < 20; i++)
         {
             var randomNumberX = Random.Range(-8, 8);
             Instantiate(prefab, transform.position + (transform.right * randomNumberX) + (transform.up * 3), transform.rotation);
+            //Debug.Log("Instancing new enemy at " + (transform.position + (transform.right * randomNumberX)));
         }
         yield return new WaitForSeconds(3);
         StartCoroutine(wave());

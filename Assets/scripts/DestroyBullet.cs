@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class DestroyBullet : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Hit " + collision.gameObject.tag);
-        if (collision.gameObject.tag == "Enemy") Destroy(collision.gameObject);
+        //Debug.Log("BRegHitTag " + collision.gameObject.tag);
+        //Debug.Log("BRegHit " + collision.gameObject.name);
+        if (collision.gameObject.tag == "Enemy") Destroy(gameObject);
     }
 }

@@ -1,49 +1,73 @@
 fileFormatVersion: 2
-guid: 8c25c2bddaadb384396a4300220bcdc8
+guid: 5b01a1777d7790744bc52e2f68f02072
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 51319802802820282
-    second: "Karakt\xE4r till spel (1)_0"
+      213: -8092295105046505211
+    second: explosion_0
   - first:
-      213: -8239975182401265115
-    second: "Karakt\xE4r till spel (1)_1"
+      213: -5243772346084840235
+    second: explosion_1
   - first:
-      213: 8264931491912622724
-    second: "Karakt\xE4r till spel (1)_2"
+      213: -4009157606203222040
+    second: explosion_2
   - first:
-      213: -715794006542891768
-    second: "Karakt\xE4r till spel (1)_3"
+      213: 3730887761424324059
+    second: explosion_3
   - first:
-      213: 3403976022712943497
-    second: "Karakt\xE4r till spel (1)_4"
+      213: -4927540249515241657
+    second: explosion_4
   - first:
-      213: 1412361439262103669
-    second: "Karakt\xE4r till spel (1)_5"
+      213: 5684552838703836615
+    second: explosion_5
   - first:
-      213: -1081591863103215970
-    second: "Karakt\xE4r till spel (1)_6"
+      213: -1000500801407918923
+    second: explosion_6
   - first:
-      213: -7308205589158847621
-    second: "Karakt\xE4r till spel (1)_7"
+      213: -3556220708966662747
+    second: explosion_7
   - first:
-      213: -8854576134946436079
-    second: "Karakt\xE4r till spel (1)_8"
+      213: 950242065716622878
+    second: explosion_8
   - first:
-      213: 671360496602632628
-    second: "Karakt\xE4r till spel (1)_9"
+      213: 1871906383385562927
+    second: explosion_9
   - first:
-      213: -7396103821095233950
-    second: "Karakt\xE4r till spel (1)_10"
+      213: -5371098934410574880
+    second: explosion_10
   - first:
-      213: 5820915313634387534
-    second: "Karakt\xE4r till spel (1)_11"
+      213: -1551774312519300948
+    second: explosion_11
   - first:
-      213: -980001545912487886
-    second: "Karakt\xE4r till spel (1)_12"
+      213: 8761117149865828687
+    second: explosion_12
   - first:
-      213: 1347662283036759159
-    second: "Karakt\xE4r till spel (1)_13"
+      213: 2349602722129606322
+    second: explosion_13
+  - first:
+      213: 7773491377804077996
+    second: explosion_14
+  - first:
+      213: 1467323325375670837
+    second: explosion_15
+  - first:
+      213: 4542189021846940948
+    second: explosion_16
+  - first:
+      213: -8590846737339631838
+    second: explosion_17
+  - first:
+      213: 3996794502770762282
+    second: explosion_18
+  - first:
+      213: -5328293131749856865
+    second: explosion_19
+  - first:
+      213: 8757869890930774319
+    second: explosion_20
+  - first:
+      213: 5583760979089145045
+    second: explosion_21
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -137,295 +161,379 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_0"
+      name: explosion_0
       rect:
         serializedVersion: 2
-        x: 226
-        y: 4036
-        width: 828
-        height: 848
+        x: 306
+        y: 4166
+        width: 738
+        height: 698
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5b8d7c6e9891b5438f187f6e98519e5
-      internalID: 51319802802820282
+      spriteID: 98912da091286ba40814d2dbfb6cd098
+      internalID: -8092295105046505211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_1"
+      name: explosion_1
       rect:
         serializedVersion: 2
-        x: 1506
-        y: 4036
-        width: 828
-        height: 848
+        x: 1524
+        y: 4136
+        width: 806
+        height: 726
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12ab638e7f6d24649bd21dfaffcf8a67
-      internalID: -8239975182401265115
+      spriteID: eb0946a79e8459343a936c0270479d83
+      internalID: -5243772346084840235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_2"
+      name: explosion_3
       rect:
         serializedVersion: 2
-        x: 2786
-        y: 4036
-        width: 828
-        height: 848
+        x: 2796
+        y: 4069
+        width: 856
+        height: 805
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba0cfe63d7000e04c8deba33e3a0b8c0
-      internalID: 8264931491912622724
+      spriteID: e37c3b1200b3b0e43b17106f54c335eb
+      internalID: 3730887761424324059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_3"
+      name: explosion_4
       rect:
         serializedVersion: 2
-        x: 4066
-        y: 4036
-        width: 828
-        height: 848
+        x: 4146
+        y: 4166
+        width: 738
+        height: 698
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d36c1a4a8f82534d992fe5e262924f4
-      internalID: -715794006542891768
+      spriteID: 79a19b9baed2b67489633ea45fa11325
+      internalID: -4927540249515241657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_4"
+      name: explosion_5
       rect:
         serializedVersion: 2
-        x: 226
-        y: 2756
-        width: 828
-        height: 848
+        x: 1806
+        y: 4136
+        width: 28
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd4f5d65de7de44787d7d6dad4d51da
-      internalID: 3403976022712943497
+      spriteID: 1ef8d244ad68c014cb8797eb051de18d
+      internalID: 5684552838703836615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_5"
+      name: explosion_7
       rect:
         serializedVersion: 2
-        x: 1506
-        y: 2756
-        width: 828
-        height: 848
+        x: 256
+        y: 2866
+        width: 788
+        height: 698
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffe422d08b5c3e443a15cc3b684793c6
-      internalID: 1412361439262103669
+      spriteID: e979aafa2bd3a8b48aa303f816539f14
+      internalID: -3556220708966662747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_6"
+      name: explosion_8
       rect:
         serializedVersion: 2
-        x: 2786
-        y: 2756
-        width: 828
-        height: 848
+        x: 626
+        y: 3556
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c9da8bd15185df4ab7b891ab65ae3b0
-      internalID: -1081591863103215970
+      spriteID: c01ea025a58415143a418d4d50f2189e
+      internalID: 950242065716622878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_7"
+      name: explosion_9
       rect:
         serializedVersion: 2
-        x: 4066
-        y: 2756
-        width: 828
-        height: 848
+        x: 1516
+        y: 2806
+        width: 848
+        height: 788
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdbc77feef08a4943b4eaa73055583f5
-      internalID: -7308205589158847621
+      spriteID: 77973aebfbe2d934c84cee4d3edc20a8
+      internalID: 1871906383385562927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_8"
+      name: explosion_10
       rect:
         serializedVersion: 2
-        x: 4396
-        y: 2566
-        width: 118
-        height: 108
+        x: 2956
+        y: 2986
+        width: 468
+        height: 428
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feebd254d974a5b4eb76626f262a1fb0
-      internalID: -8854576134946436079
+      spriteID: 2e4406ef23df4ea4b83eb834e22f16c2
+      internalID: -5371098934410574880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_9"
+      name: explosion_11
       rect:
         serializedVersion: 2
-        x: 226
-        y: 1476
-        width: 828
-        height: 848
+        x: 4146
+        y: 2926
+        width: 668
+        height: 548
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfa59a17c4b2811459661fbf249e6a51
-      internalID: 671360496602632628
+      spriteID: 49faa9c7c03a75c4696782442c99aadd
+      internalID: -1551774312519300948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_10"
+      name: explosion_14
       rect:
         serializedVersion: 2
-        x: 1506
-        y: 1476
-        width: 828
-        height: 848
+        x: 0
+        y: 1526
+        width: 1114
+        height: 728
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64f7ad60b62155641a109793dcdb5815
-      internalID: -7396103821095233950
+      spriteID: 568b014dd16f2af4db21abe8a2ad3c08
+      internalID: 7773491377804077996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_11"
+      name: explosion_15
       rect:
         serializedVersion: 2
-        x: 2786
-        y: 1476
-        width: 828
-        height: 848
+        x: 1546
+        y: 1816
+        width: 748
+        height: 228
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2966a024cc8b26f4c82215960b21be6c
-      internalID: 5820915313634387534
+      spriteID: f6572e2be278b284db529a7fef5ad540
+      internalID: 1467323325375670837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_12"
+      name: explosion_16
       rect:
         serializedVersion: 2
-        x: 4066
-        y: 1476
-        width: 828
-        height: 848
+        x: 2686
+        y: 1756
+        width: 1008
+        height: 268
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76c240f61428c7040abc662c765ed440
-      internalID: -980001545912487886
+      spriteID: fc82669fdeeea6d4e9a5d7cdd8a50acd
+      internalID: 4542189021846940948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Karakt\xE4r till spel (1)_13"
+      name: explosion_17
       rect:
         serializedVersion: 2
-        x: 226
-        y: 196
-        width: 828
-        height: 848
+        x: 3836
+        y: 1826
+        width: 1284
+        height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d404bf2aae3555343ba4881e3686382e
-      internalID: 1347662283036759159
+      spriteID: 186a395593bd38e4dbc8881d3a1e7f49
+      internalID: -8590846737339631838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 1284
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74850434e268e004bb02dff9d9809625
+      internalID: 3996794502770762282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion_19
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 476
+        width: 488
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bd5c7bf728d3b42b6892f67485386c
+      internalID: -5328293131749856865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion_20
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 476
+        width: 488
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6038a7f7b860f245a847a8eaaa726e2
+      internalID: 8757869890930774319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion_21
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 476
+        width: 570
+        height: 808
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43882fdf2f14aa34da9f1a11b9ef45ba
+      internalID: 5583760979089145045
       vertices: []
       indices: 
       edges: []
@@ -433,7 +541,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 957214b7e4a557a45a3730133e8b508e
+    spriteID: 10d68b5f1fb5c854eb7b76c729ba91ce
     internalID: 0
     vertices: []
     indices: 

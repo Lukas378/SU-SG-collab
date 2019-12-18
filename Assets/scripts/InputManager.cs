@@ -6,13 +6,11 @@ public class InputManager : MonoBehaviour
 {
     public float deltaX;
     public int hp = 100;
-    public SpriteRenderer sR;
-    public Sprite[] hSprites;
-    int spriteIndex;
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        sR = gameObject.GetComponent<SpriteRenderer>();
+        anim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,20 +25,24 @@ public class InputManager : MonoBehaviour
             transform.position = new Vector2(transform.position.x + deltaX, transform.position.y);
         }
         transform.position = new Vector2(Mathf.Clamp(transform.position.x, -100, 100), transform.position.y);
-        if (hp > 50)
+        if (hp > 50 || Input.GetKeyDown(KeyCode.Alpha4))
         {
-            sR.sprite = hSprites[spriteIndex];
-            spriteIndex++;
+            anim.SetTrigger("HalfHealth");
         }
+        if (hp < 0 || Input.GetKeyDown(KeyCode.Alpha6)) Death();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy") Death();
     }
-
     public void Death()
     {
         Debug.LogWarning("Död");
+        anim.SetTrigger("Death");
+        foreach(GameObject gO in GameObject.FindGameObjectsWithTag("Enemy"))
+        {
+            Destroy(gO);
+        }
     }
 }

@@ -33,7 +33,5 @@ public class shootScript : MonoBehaviour
         
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.transform.up, ForceMode2D.Impulse);
-
-
     }
 }
